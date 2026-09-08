@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HAFIZ ARMAN SHEIKH — Front-End Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Custom Cursor Glow & Dynamic Canvas Background -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-emoji">⚡</span> HAS<span class="dot">.</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-item">About</a></li>
+      <li><a href="#skills" class="nav-item">Skills</a></li>
+      <li><a href="#projects" class="nav-item">Projects</a></li>
+      <li><a href="#education" class="nav-item">Education</a></li>
+      <li><a href="#contact" class="nav-btn">Hire Me <span class="emoji">🚀</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="about">
+    <div class="hero-content">
+      <div class="badge">
+        <span class="pulse-dot"></span> Available for Freelance & Remote Projects 🎯
+      </div>
+      <h1 class="glitch-title">
+        Hi, I'm <span class="highlight">HAFIZ ARMAN SHEIKH</span> 👋
+      </h1>
+      <h2 class="sub-title">Front-End Web Application Developer 💻✨</h2>
+      <p class="bio-text">
+        Building interactive, modern, and high-performance websites using HTML, CSS, JavaScript, and Bootstrap. Experienced in seamless deployment via Vercel and Netlify, leveraging Git, GitHub, and modern AI tools to accelerate development workflows.
+      </p>
+      
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary-btn">
+          Explore Projects <span class="emoji">📂</span>
+        </a>
+        <a href="#contact" class="btn secondary-btn">
+          Get In Touch <span class="emoji">💬</span>
+        </a>
+      </div>
+
+      <div class="social-pills">
+        <a href="https://github.com/Hafiz-arman-sheikh" target="_blank" class="pill">
+          <i class="fab fa-github"></i> GitHub Profile
+        </a>
+        <a href="https://www.linkedin.com/in/hafiz-arman-sheikh-05b723186/" target="_blank" class="pill">
+          <i class="fab fa-linkedin"></i> LinkedIn Profile
+        </a>
+        <span class="pill location"><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan 🇵🇰</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="section-title">
+      <h2>Technical Expertise <span class="emoji">🛠️</span></h2>
+      <p>Core Web Technologies & Tools I Use</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card" data-tilt>
+        <div class="card-icon">🌐</div>
+        <h3>Core Web Technologies</h3>
+        <p>HTML5, CSS3, JavaScript (ES6+)</p>
+        <div class="level-bar"><div class="fill" style="width: 90%;"></div></div>
+      </div>
+
+      <div class="skill-card" data-tilt>
+        <div class="card-icon">🎨</div>
+        <h3>UI & Libraries</h3>
+        <p>Bootstrap & Local JS/CSS Libraries</p>
+        <div class="level-bar"><div class="fill" style="width: 85%;"></div></div>
+      </div>
+
+      <div class="skill-card" data-tilt>
+        <div class="card-icon">🚀</div>
+        <h3>Deployment & Hosting</h3>
+        <p>Vercel & Netlify Platform Hosting</p>
+        <div class="level-bar"><div class="fill" style="width: 88%;"></div></div>
+      </div>
+
+      <div class="skill-card" data-tilt>
+        <div class="card-icon">🧰</div>
+        <h3>Version Control & AI</h3>
+        <p>Git, GitHub, and AI-Assisted Workflows</p>
+        <div class="level-bar"><div class="fill" style="width: 85%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="section-title">
+      <h2>Featured Works <span class="emoji">🌟</span></h2>
+      <p>Recent Live Projects & GitHub Repositories</p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-emoji">💻</span>
+          <span class="tech-tag">HTML / CSS / JS</span>
+        </div>
+        <h3>Interactive Web Application</h3>
+        <p>A dynamic user interface built with HTML5, styled with CSS3 animations, and powered by JavaScript functionality.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Hafiz-arman-sheikh" target="_blank" class="link-btn">
+            View Code <i class="fas fa-code"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-emoji">📱</span>
+          <span class="tech-tag">Bootstrap / Netlify</span>
+        </div>
+        <h3>Responsive Business Site</h3>
+        <p>Fully responsive UI built using Bootstrap layout components and deployed seamlessly using Netlify.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Hafiz-arman-sheikh" target="_blank" class="link-btn">
+            View Code <i class="fas fa-code"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-emoji">⚡</span>
+          <span class="tech-tag">JS Libraries / Vercel</span>
+        </div>
+        <h3>Animated Web Interface</h3>
+        <p>Custom animated website using JavaScript libraries, modern CSS styles, and hosted on Vercel platform.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Hafiz-arman-sheikh" target="_blank" class="link-btn">
+            View Code <i class="fas fa-code"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="section-title">
+      <h2>Qualification & Timeline <span class="emoji">🎓</span></h2>
+      <p>Academic & Professional Education</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot">📖</div>
+        <div class="timeline-content">
+          <span class="date">Ongoing</span>
+          <h3>SMIT — Modern Web App Development</h3>
+          <p>Enrolled in Saylani Mass IT Training program, focusing on modern front-end web development practices.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot">🎓</div>
+        <div class="timeline-content">
+          <span class="date">2020</span>
+          <h3>Bachelors of Commerce (B.Com)</h3>
+          <p>Karachi University, Pakistan.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot">✨</div>
+        <div class="timeline-content">
+          <span class="date">Honorable</span>
+          <h3>Hafiz-ul-Quran</h3>
+          <p>Completed full memorization of the Holy Quran.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="contact-box">
+      <h2>Let's Work Together! <span class="emoji">🤝</span></h2>
+      <p>I am actively seeking freelance projects and web development opportunities. Need a clean, fast website? Let's talk!</p>
+      
+      <div class="contact-details">
+        <a href="mailto:arman.com700@gmail.com" class="contact-item">
+          <span class="icon">✉️</span>
+          <span>arman.com700@gmail.com</span>
+        </a>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <span>Karachi, Pakistan</span>
+        </div>
+      </div>
+
+      <a href="mailto:arman.com700@gmail.com" class="btn primary-btn large">
+        Send Direct Email 📩
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© HAFIZ ARMAN SHEIKH — Built with <span class="emoji">💻</span> HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
