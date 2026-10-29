@@ -274,3 +274,34 @@ document.querySelectorAll('.skill-card, .project-card').forEach((card) => {
     card.style.transform = '';
   });
 });
+
+
+// Mobile navigation menu
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('is-open');
+    menuToggle.classList.toggle('is-active', isOpen);
+    menuToggle.setAttribute('aria-expanded', String(isOpen));
+    menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+  });
+
+  navLinks.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('is-open');
+      menuToggle.classList.remove('is-active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Open navigation menu');
+    });
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      navLinks.classList.remove('is-open');
+      menuToggle.classList.remove('is-active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
