@@ -12,7 +12,7 @@ I am learning web development through Saylani Mass IT Training (SMIT) and buildi
 | LifeTrack | Personal tracking web app | TypeScript, Firebase | [Live demo](https://lifetrack-864d7.web.app/) · [Code](https://github.com/Hafiz-arman-sheikh/LifeTrack) |
 | RoyalChat | Messenger-style interface with a red gradient design | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/RoyalChat) |
 | StreamWave | Streaming-style browsing interface and playback experiments | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh) |
-| Coffee Wala | Coffee shop website concept | HTML, CSS, JavaScript | [GitHub profile](https://github.com/Hafiz-arman-sheikh) |
+| Coffee Wala | Coffee shop website concept | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/Coffee-Wala-without-AI) |
 | Huffaz Caterers | Responsive catering and menu website | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/HUFFAZ-CATERERS) |
 | Pak Units Poll | Interactive polling project | HTML, CSS, JavaScript | [Live demo](https://pak-units-poll.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/-PakUnits-Poll) |
 | Weather App | Practice project using a weather API | JavaScript, Fetch API | [GitHub profile](https://github.com/Hafiz-arman-sheikh) |
