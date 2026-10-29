@@ -1,43 +1,40 @@
-# Hafiz Arman Sheikh — Developer Portfolio
+# Hafiz Arman Sheikh — Web Developer Portfolio
 
-Personal portfolio website showcasing my frontend projects, technical skills, and learning journey.
+I am learning web development through Saylani Mass IT Training (SMIT) and building projects to practise front-end development, APIs, authentication, and database-backed applications.
 
-## Built With
+## Projects
 
-- HTML5
-- CSS3 (Flexbox, Grid, responsive layouts, custom animations)
-- JavaScript (ES6+, DOM, Canvas API)
-- Bootstrap and Font Awesome
-- Git and GitHub
-- Vercel, Netlify, and Firebase Hosting
+| Project | Description | Technologies | Link |
+| --- | --- | --- | --- |
+| PeopleFlow HCM | HR management demo with employee records, attendance, leave requests, payroll and role-based views | HTML, CSS, JavaScript, Supabase, SQL | [Live demo](https://peopleflow-hcm.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/peopleflow-hcm) |
+| Barkat Bakery & Nimco | Online shop with product categories, cart, order tracking, stock management and admin tools | HTML, CSS, JavaScript, Supabase, SQL | [Live demo](https://barkat-bakery-nimco.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/BARKAT-BAKERY---NIMCO) |
+| LiquidDrop | File manager with sign-up/login, drag-and-drop uploads and cloud file storage | HTML, CSS, JavaScript, Supabase Auth, Supabase Storage | [Live demo](https://liquiddrop.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/LiquidDrop) |
+| LifeTrack | Personal tracking web app | TypeScript, Firebase | [Live demo](https://lifetrack-864d7.web.app/) · [Code](https://github.com/Hafiz-arman-sheikh/LifeTrack) |
+| RoyalChat | Messenger-style interface with a red gradient design | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/RoyalChat) |
+| StreamWave | Streaming-style browsing interface and playback experiments | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh) |
+| Coffee Wala | Coffee shop website concept | HTML, CSS, JavaScript | [GitHub profile](https://github.com/Hafiz-arman-sheikh) |
+| Huffaz Caterers | Responsive catering and menu website | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/HUFFAZ-CATERERS) |
+| Pak Units Poll | Interactive polling project | HTML, CSS, JavaScript | [Live demo](https://pak-units-poll.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/-PakUnits-Poll) |
+| Weather App | Practice project using a weather API | JavaScript, Fetch API | [GitHub profile](https://github.com/Hafiz-arman-sheikh) |
 
-## Featured Projects
+## Skills and tools
 
-| Project | What it does | Technologies |
-| --- | --- | --- |
-| [PeopleFlow HCM](https://peopleflow-hcm.vercel.app/) | HR workspace with role-based access, attendance, leave, payroll and reports | JavaScript, Supabase, PostgreSQL, SQL |
-| [LiquidDrop](https://liquiddrop.vercel.app/) | Authenticated drag-and-drop file manager using cloud storage | JavaScript, Supabase Auth, Supabase Storage |
-| [Barkat Bakery & Nimco](https://barkat-bakery-nimco.vercel.app/) | Online bakery shop with cart, tracking and inventory tools | HTML, CSS, JavaScript, Supabase |
-| [LifeTrack](https://lifetrack-864d7.web.app/) | Personal tracking web app | TypeScript, Firebase |
-| [RoyalChat](https://github.com/Hafiz-arman-sheikh/RoyalChat) | Messenger-style chat UI | HTML, CSS, JavaScript |
-| [Huffaz Caterers](https://github.com/Hafiz-arman-sheikh/HUFFAZ-CATERERS) | Responsive catering and menu website | HTML, CSS, JavaScript |
-| [Pak Units Poll](https://pak-units-poll.vercel.app/) | Polling project | HTML, CSS, JavaScript |
-| [Weather](https://github.com/Hafiz-arman-sheikh/Weather) | Weather and API practice project | JavaScript, API |
+- **Languages:** HTML, CSS, JavaScript, TypeScript, SQL
+- **Front end:** Responsive layouts, Flexbox, CSS Grid, DOM manipulation, forms, event handling
+- **Backend services:** Supabase Auth, Database and Storage; Firebase
+- **Tools:** Git, GitHub, VS Code, Vercel, Netlify, Firebase Hosting
+- **Learning:** APIs, asynchronous JavaScript, TypeScript and database-backed web apps
 
-## Skills & Tools
+## About me
 
-**Languages:** HTML, CSS, JavaScript, TypeScript, Python, SQL  
-**Frontend:** Responsive design, DOM manipulation, Flexbox, CSS Grid, Bootstrap  
-**Backend services:** Supabase Auth, Supabase Database, Supabase Storage, Firebase  
-**Workflow:** Git, GitHub, VS Code, Vercel, Netlify, Firebase Hosting
+I am building practical projects while improving my JavaScript, TypeScript and web application skills. I am interested in junior front-end roles, remote opportunities open to applicants in Pakistan, and small-business websites.
 
-## About
+## Contact
 
-I am learning modern web application development through Saylani Mass IT Training (SMIT) and building practical projects to improve my skills. I am interested in junior frontend opportunities, web applications, and small-business websites.
-
-## Links
-
-- [GitHub Profile](https://github.com/Hafiz-arman-sheikh)
+- [GitHub](https://github.com/Hafiz-arman-sheikh)
 - [LinkedIn](https://www.linkedin.com/in/hafiz-arman-sheikh-05b723186/)
-- [Portfolio Repository](https://github.com/Hafiz-arman-sheikh/Profile)
+- Email: arman.com700@gmail.com
 
+---
+
+This README lists technologies used in my projects and topics I am currently learning. I keep the projects simple and improve them as I learn.
