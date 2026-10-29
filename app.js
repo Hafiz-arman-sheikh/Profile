@@ -44,6 +44,37 @@ function drawPlanet(x, y, radius, color, glow) {
   ctx.fill();
 }
 
+function drawSaturn(x, y, radius) {
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(-0.25);
+  ctx.strokeStyle = 'rgba(226, 190, 145, 0.8)';
+  ctx.lineWidth = Math.max(2, radius * 0.18);
+  ctx.beginPath();
+  ctx.ellipse(0, 0, radius * 1.65, radius * 0.48, 0, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.restore();
+  drawPlanet(x, y, radius, '#d6b98c', 'rgba(219, 180, 125, 0.15)');
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(-0.25);
+  ctx.strokeStyle = 'rgba(226, 190, 145, 0.85)';
+  ctx.lineWidth = Math.max(2, radius * 0.12);
+  ctx.beginPath();
+  ctx.ellipse(0, 0, radius * 1.65, radius * 0.48, 0, Math.PI, Math.PI * 2);
+  ctx.stroke();
+  ctx.restore();
+}
+
+function drawEarth(x, y, radius) {
+  drawPlanet(x, y, radius, '#2563eb', 'rgba(70, 150, 255, 0.16)');
+  ctx.fillStyle = 'rgba(88, 190, 130, 0.9)';
+  ctx.beginPath();
+  ctx.ellipse(x - radius * 0.25, y - radius * 0.1, radius * 0.32, radius * 0.18, -0.4, 0, Math.PI * 2);
+  ctx.ellipse(x + radius * 0.28, y + radius * 0.25, radius * 0.22, radius * 0.12, 0.5, 0, Math.PI * 2);
+  ctx.fill();
+}
+
 function drawSpace() {
   ctx.clearRect(0, 0, width, height);
   const sky = ctx.createLinearGradient(0, 0, width, height);
@@ -70,6 +101,20 @@ function drawSpace() {
   // Keep the celestial objects subtle so the portfolio text stays readable.
   drawPlanet(width * 0.86, height * 0.22, Math.min(48, width * 0.045), '#f59e0b', 'rgba(255, 160, 40, 0.18)');
   drawPlanet(width * 0.12, height * 0.72, Math.min(25, width * 0.025), '#c45d46', 'rgba(235, 90, 65, 0.15)');
+  drawSaturn(width * 0.91, height * 0.72, Math.min(22, width * 0.022));
+  drawEarth(width * 0.18, height * 0.25, Math.min(15, width * 0.016));
+
+  // A few tiny shooting stars add movement without distracting from the content.
+  if (Math.random() > 0.992) {
+    const sx = Math.random() * width;
+    const sy = Math.random() * height * 0.65;
+    ctx.strokeStyle = 'rgba(190, 225, 255, 0.7)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(sx, sy);
+    ctx.lineTo(sx - 32, sy + 18);
+    ctx.stroke();
+  }
 
   const moonX = width * 0.73;
   const moonY = height * 0.76;
