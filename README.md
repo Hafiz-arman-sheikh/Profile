@@ -10,12 +10,12 @@ I am learning web development through Saylani Mass IT Training (SMIT) and buildi
 | Barkat Bakery & Nimco | Online shop with product categories, cart, order tracking, stock management and admin tools | HTML, CSS, JavaScript, Supabase, SQL | [Live demo](https://barkat-bakery-nimco.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/BARKAT-BAKERY---NIMCO) |
 | LiquidDrop | File manager with sign-up/login, drag-and-drop uploads and cloud file storage | HTML, CSS, JavaScript, Supabase Auth, Supabase Storage | [Live demo](https://liquiddrop.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/LiquidDrop) |
 | LifeTrack | Personal tracking web app | TypeScript, Firebase | [Live demo](https://lifetrack-864d7.web.app/) · [Code](https://github.com/Hafiz-arman-sheikh/LifeTrack) |
-| RoyalChat | Messenger-style interface with a red gradient design | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/RoyalChat) |
-| StreamWave | Streaming-style browsing interface and playback experiments | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh) |
-| Coffee Wala | Coffee shop website concept | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/Coffee-Wala-without-AI) |
+| RoyalChat | Messenger-style chat interface with a red gradient design | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/RoyalChat) |
+| StreamWave | Streaming-style browsing interface and playback experiments | HTML, CSS, JavaScript | [GitHub profile](https://github.com/Hafiz-arman-sheikh) |
+| Coffee Wala | Coffee shop website concept | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/coffee-shop-website) · [Alternate version](https://github.com/Hafiz-arman-sheikh/Coffee-Wala-without-AI) |
 | Huffaz Caterers | Responsive catering and menu website | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/HUFFAZ-CATERERS) |
 | Pak Units Poll | Interactive polling project | HTML, CSS, JavaScript | [Live demo](https://pak-units-poll.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/-PakUnits-Poll) |
-| Weather App | Practice project using a weather API | JavaScript, Fetch API | [GitHub profile](https://github.com/Hafiz-arman-sheikh) |
+| Weather App | Weather interface using an external weather API | HTML, CSS, JavaScript, Fetch API | [Code](https://github.com/Hafiz-arman-sheikh/Weather) |
 
 ## Skills and tools
 
@@ -33,7 +33,6 @@ I am building practical projects while improving my JavaScript, TypeScript and w
 
 - [GitHub](https://github.com/Hafiz-arman-sheikh)
 - [LinkedIn](https://www.linkedin.com/in/hafiz-arman-sheikh-05b723186/)
-- Email: arman.com700@gmail.com
 
 ---
 
