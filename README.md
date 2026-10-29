@@ -16,6 +16,10 @@ I am learning web development through Saylani Mass IT Training (SMIT) and buildi
 | Huffaz Caterers | Responsive catering and menu website | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/HUFFAZ-CATERERS) |
 | Pak Units Poll | Interactive polling project | HTML, CSS, JavaScript | [Live demo](https://pak-units-poll.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/-PakUnits-Poll) |
 | Weather App | Weather interface using an external weather API | HTML, CSS, JavaScript, Fetch API | [Code](https://github.com/Hafiz-arman-sheikh/Weather) |
+| Learning Management System | Multi-page student and teacher interface | HTML, CSS, JavaScript | [Live demo](https://lms-three-nu.vercel.app/) · [Code](https://github.com/Hafiz-arman-sheikh/LMS) |
+| Expense Tracker | Expense tracking practice project | Web technologies (check repository source) | [Code](https://github.com/Hafiz-arman-sheikh/Expense-Tracker) |
+| AURA E-commerce | Luxury watch storefront concept | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/eCommerce-web) |
+| Beauty Hub | Beauty and skincare website interface | HTML, CSS, Bootstrap, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/Beauty-Hub-1) |
 
 ## Skills and tools
 
