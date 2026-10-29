@@ -192,6 +192,7 @@ function drawSpace(time) {
   drawOrbit(cx, cy, rx * 0.59, ry * 0.57, rotation);
   drawOrbit(cx, cy, rx * 0.75, ry * 0.73, rotation);
   drawOrbit(cx, cy, rx * 0.91, ry * 0.89, rotation);
+  drawOrbit(cx, cy, Math.min(width * 0.47, 540), Math.min(height * 0.43, 310), rotation);
 
   // The Sun gently pulses instead of staying completely still.
   const sun = orbitPoint(width * 0.84, height * 0.22, width * 0.012, height * 0.014, elapsed * 0.18, 0);
@@ -222,6 +223,9 @@ function drawSpace(time) {
 
   const neptune = orbitPoint(cx, cy, rx * 0.43, ry * 0.42, elapsed * 0.16 + 4.7, rotation);
   drawPlanet(neptune.x, neptune.y, Math.max(5, 8 * scale), '#4169e1', 'rgba(65, 105, 225, 0.14)', elapsed * 0.8);
+
+  const pluto = orbitPoint(cx, cy, Math.min(width * 0.47, 540), Math.min(height * 0.43, 310), elapsed * 0.055 + 3.4, rotation + 0.18);
+  drawPlanet(pluto.x, pluto.y, Math.max(3, 5 * scale), '#b9a99a', 'rgba(190, 170, 150, 0.1)', elapsed * 0.6);
 
   // A separate Moon slowly circles Earth to make the scene feel alive.
   const moonX = earth.x + Math.cos(elapsed * 0.9) * Math.max(12, 18 * scale);
