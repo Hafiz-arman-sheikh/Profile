@@ -21,13 +21,15 @@ I am learning web development through Saylani Mass IT Training (SMIT) and buildi
 | AURA E-commerce | Luxury watch storefront concept | HTML, CSS, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/eCommerce-web) |
 | Beauty Hub | Beauty and skincare website interface | HTML, CSS, Bootstrap, JavaScript | [Code](https://github.com/Hafiz-arman-sheikh/Beauty-Hub-1) |
 
-## Skills and tools
+## Technical expertise
 
-- **Languages:** HTML, CSS, JavaScript, TypeScript, SQL
-- **Front end:** Responsive layouts, Flexbox, CSS Grid, DOM manipulation, forms, event handling
-- **Backend services:** Supabase Auth, Database and Storage; Firebase
-- **Tools:** Git, GitHub, VS Code, Vercel, Netlify, Firebase Hosting
-- **Learning:** APIs, asynchronous JavaScript, TypeScript and database-backed web apps
+- **Languages:** HTML5, CSS3, JavaScript (ES6+), TypeScript, SQL
+- **Front-end:** Responsive design, Flexbox, CSS Grid, DOM manipulation, forms, events, Fetch API, async/await, localStorage
+- **UI toolkit:** Bootstrap
+- **Databases and cloud services:** Supabase (Database, Auth and Storage), PostgreSQL, Firebase
+- **Developer tools:** Git, GitHub, VS Code
+- **Hosting and deployment:** Vercel, Netlify, Firebase Hosting
+- **Project work:** REST API integration, authentication flows, CRUD interfaces, role-based views and responsive layouts
 
 ## About me
 
