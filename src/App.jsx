@@ -2,8 +2,8 @@ import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import {
   ArrowDown, ArrowRight, ArrowUpRight, BriefcaseBusiness, Check,
-  Code2, Coffee, Database, ExternalLink, FileText, Github, GraduationCap,
-  Layers3, Linkedin, Mail, MapPin, Menu, Moon, Rocket, Sparkles, Sun,
+  Code2, Coffee, Database, ExternalLink, FileText, GraduationCap,
+  Layers3, Mail, MapPin, Menu, Moon, Rocket, Sparkles, Sun,
   Terminal, Workflow, Wrench, X
 } from "lucide-react";
 
@@ -289,8 +289,8 @@ function App() {
                 </a>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-[var(--muted)]">
-                <a href={github} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-2 rounded-md hover:text-[var(--accent)]"><Github size={17} /> GitHub</a>
-                <a href={linkedin} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-2 rounded-md hover:text-[var(--accent)]"><Linkedin size={17} /> LinkedIn</a>
+                <a href={github} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-2 rounded-md hover:text-[var(--accent)]"><Code2 size={17} /> GitHub</a>
+                <a href={linkedin} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-2 rounded-md hover:text-[var(--accent)]"><BriefcaseBusiness size={17} /> LinkedIn</a>
                 <span className="inline-flex items-center gap-2"><MapPin size={16} /> Karachi, Pakistan</span>
               </div>
             </motion.div>
@@ -402,7 +402,7 @@ function App() {
                     <p className="flex-1 text-sm leading-7 text-[var(--muted)]">{project.description}</p>
                     <div className="mt-5 flex flex-wrap gap-2">{project.stack.map((tag) => <span key={tag} className="rounded-md bg-[var(--surface-strong)] px-2.5 py-1.5 font-mono text-[10px] text-[var(--muted)]">{tag}</span>)}</div>
                     <div className="mt-6 flex items-center gap-4 border-t border-[var(--line)] pt-4">
-                      <a href={project.code} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-1.5 text-xs font-bold text-[var(--text)] transition hover:text-[var(--accent)]"><Github size={15} /> Source code <ArrowUpRight size={13} /></a>
+                      <a href={project.code} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-1.5 text-xs font-bold text-[var(--text)] transition hover:text-[var(--accent)]"><Code2 size={15} /> Source code <ArrowUpRight size={13} /></a>
                       {project.live && <a href={project.live} target="_blank" rel="noreferrer" className="focus-ring inline-flex items-center gap-1.5 text-xs font-bold text-[var(--accent)]">Live demo <ExternalLink size={13} /></a>}
                     </div>
                   </motion.article>
@@ -453,8 +453,8 @@ function App() {
                 <button onClick={copyEmail} className="focus-ring inline-flex items-center gap-2 rounded-xl border border-[var(--line)] px-5 py-3.5 text-sm font-bold transition hover:border-[var(--accent)] hover:text-[var(--accent)]">{copied ? <Check size={16} /> : <FileText size={16} />}{copied ? "Email copied" : "Copy email"}</button>
               </div>
               <div className="mt-8 flex justify-center gap-5 text-[var(--muted)]">
-                <a aria-label="GitHub" href={github} target="_blank" rel="noreferrer" className="focus-ring rounded-md hover:text-[var(--accent)]"><Github size={20} /></a>
-                <a aria-label="LinkedIn" href={linkedin} target="_blank" rel="noreferrer" className="focus-ring rounded-md hover:text-[var(--accent)]"><Linkedin size={20} /></a>
+                <a aria-label="GitHub" href={github} target="_blank" rel="noreferrer" className="focus-ring rounded-md hover:text-[var(--accent)]"><Code2 size={20} /></a>
+                <a aria-label="LinkedIn" href={linkedin} target="_blank" rel="noreferrer" className="focus-ring rounded-md hover:text-[var(--accent)]"><BriefcaseBusiness size={20} /></a>
                 <a aria-label="Email" href={"mailto:" + email} className="focus-ring rounded-md hover:text-[var(--accent)]"><Mail size={20} /></a>
               </div>
             </div>
