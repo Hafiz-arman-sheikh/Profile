@@ -13,6 +13,18 @@ const linkedin = "https://www.linkedin.com/in/hafiz-arman-sheikh-05b723186/";
 
 const projects = [
   {
+    name: "React Sign-In UI",
+    type: "Frontend practice",
+    category: "Practice",
+    description: "A responsive sign-in interface built while practising React components and Tailwind CSS styling, powered by Vite.",
+    stack: ["React", "Tailwind CSS", "Vite"],
+    code: "https://github.com/Hafiz-arman-sheikh/React",
+    live: "https://react-practice-app-hafiz-arman-sheikh.vercel.app/",
+    image: "https://image.thum.io/get/width/1000/crop/650/https://react-practice-app-hafiz-arman-sheikh.vercel.app/",
+    icon: Code2,
+    accent: "from-cyan-400/20 to-blue-500/10"
+  },
+  {
     name: "LifeTrack",
     type: "Application",
     category: "Apps",
@@ -395,9 +407,8 @@ function App() {
                 const Icon = project.icon;
                 return (
                   <motion.article key={project.name} layout initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, scale: .96 }} transition={{ duration: .22 }} className="glass group flex min-h-[300px] flex-col rounded-2xl p-6 transition hover:-translate-y-1 hover:border-[var(--accent)]/40">
-                    <div className={"mb-6 flex h-28 items-center justify-between overflow-hidden rounded-xl border border-[var(--line)] bg-gradient-to-br " + project.accent}>
-                      <div className="pl-6"><span className="font-mono text-[10px] uppercase tracking-[.2em] text-[var(--muted)]">{project.type}</span><p className="mt-2 text-lg font-extrabold">{project.name}</p></div>
-                      <Icon size={54} strokeWidth={1.2} className="mr-6 text-[var(--text)]/50 transition duration-300 group-hover:scale-110 group-hover:text-[var(--accent)]" />
+                    <div className={"relative mb-6 flex h-36 items-center justify-center overflow-hidden rounded-xl border border-[var(--line)] bg-gradient-to-br " + project.accent}>
+                      {project.image ? <img src={project.image} alt={project.name + " screenshot preview"} loading="lazy" className="h-full w-full object-cover object-top transition duration-300 group-hover:scale-[1.02]" /> : <><div className="pl-6"><span className="font-mono text-[10px] uppercase tracking-[.2em] text-[var(--muted)]">{project.type}</span><p className="mt-2 text-lg font-extrabold">{project.name}</p></div><Icon size={54} strokeWidth={1.2} className="mr-6 text-[var(--text)]/50 transition duration-300 group-hover:scale-110 group-hover:text-[var(--accent)]" /></>}
                     </div>
                     <p className="flex-1 text-sm leading-7 text-[var(--muted)]">{project.description}</p>
                     <div className="mt-5 flex flex-wrap gap-2">{project.stack.map((tag) => <span key={tag} className="rounded-md bg-[var(--surface-strong)] px-2.5 py-1.5 font-mono text-[10px] text-[var(--muted)]">{tag}</span>)}</div>
